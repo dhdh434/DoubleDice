@@ -119,7 +119,7 @@ namespace DoubleDice
             fraction = (counter2 / numRollsReplace) * 100;
             percent = Math.Round(fraction);
 
-            //display the patterns with these things: **
+            //display the patterns with these things: ***
             for (int i = 0; i < percent; i++)
             {
                 Console.Write("*");
